@@ -2,7 +2,7 @@
   "name": "kaliningrad-validator",
   "version": "1.0.0",
   "description": "Validator for Kaliningrad Graph structure.",
-  "main": "src/entry.ts",
+  "main": "dist/entry.js",
   "scripts": {
     "build": "tsc -p ."
   },
