@@ -1,22 +1,22 @@
 {
-  "name": "kaliningrad_validiator",
+  "name": "kaliningrad-validator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Validator for Kaliningrad Graph structure.",
+  "main": "src/entry.ts",
   "scripts": {
     "build": "tsc -p ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SquashConsulting/kaliningrad_validiator.git"
+    "url": "git+https://github.com/SquashConsulting/kaliningrad-validator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SquashConsulting/kaliningrad_validiator/issues"
+    "url": "https://github.com/SquashConsulting/kaliningrad-validator/issues"
   },
-  "homepage": "https://github.com/SquashConsulting/kaliningrad_validiator#readme",
+  "homepage": "https://github.com/SquashConsulting/kaliningrad-validator#readme",
   "dependencies": {
     "ajv": "^6.12.0"
   },
