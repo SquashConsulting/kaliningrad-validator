@@ -11,6 +11,14 @@ npm install --save SquashConsulting/kaliningrad_validiator#master
 
 ## Usage
 
-```
-import validate from ''
+```ts
+import validate from 'kaliningrad-validator'
+
+const data = {...} // your Kaliningrad json data
+
+const isValid = validate(data);
+
+if (!isValid) {
+  throw new Error('Invalid Kaliningrad Graph Structure');
+}
 ```
