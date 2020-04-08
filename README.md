@@ -6,7 +6,7 @@ Validator for Kaliningrad Graph structure.
 
 ```sh
 # or yarn add
-npm install --save SquashConsulting/kaliningrad_validiator#master
+npm install --save SquashConsulting/kaliningrad-validator#master
 ```
 
 ## Usage
