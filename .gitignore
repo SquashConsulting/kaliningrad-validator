@@ -2,6 +2,5 @@
 .thumbs.db
 node_modules/
 npm-debug.log*
-dist/
 .vscode
 .pnp.js
