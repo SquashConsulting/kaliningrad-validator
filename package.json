@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Validator for Kaliningrad Graph structure.",
   "main": "dist/entry.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "build": "tsc -p ."
   },
