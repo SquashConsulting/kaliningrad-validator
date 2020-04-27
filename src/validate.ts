@@ -2,7 +2,15 @@ import Ajv from 'ajv';
 
 import schema from './schema';
 
+/* Constants */
+
 const ajv = new Ajv({ allErrors: true });
+
+/* Exports */
+
+export default validate;
+
+/* Module Functions */
 
 /**
  * Validates given data structure to the official
@@ -11,7 +19,7 @@ const ajv = new Ajv({ allErrors: true });
  * @param data Kaliningrad Graph Structure
  * @returns `isValid` — `true` or `false`
  */
-export default function (data: object): boolean | PromiseLike<any> {
+function validate(data: object): boolean | PromiseLike<any> {
   const isValid = ajv.validate(schema, data);
 
   return isValid;
