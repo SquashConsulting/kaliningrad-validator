@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/SquashConsulting/kaliningrad-validator#readme",
   "dependencies": {
-    "ajv": "^6.12.0"
+    "ajv": "^6.12.3"
   },
   "devDependencies": {
     "tslint": "^6.0.0",
